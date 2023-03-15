@@ -8,7 +8,7 @@ const server = createServer((request, response) => {
   response.setHeader("Content-Type", "text/html");
 
   response.end(
-    "<html><body><h1>Ciao Alessà, appena puoi mi devi dire se a Caltanissetta fanno un pezzo con la salsiccia e i giri.</h1></body></html>"
+    "<html><body><h1>Ciao Alessà, ma quanto è buona la frittata di asparagi?</h1></body></html>"
   );
 });
 
